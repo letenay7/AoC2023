@@ -3,9 +3,6 @@ fun main() {
         return  cube.trim().substringBefore(' ').toInt()
     }
      fun evaluateSet (set : List<String>) : Boolean {
-         var red = 0
-         var green = 0
-         var blue = 0
          val r = 12
          val g = 13
          val b = 14
